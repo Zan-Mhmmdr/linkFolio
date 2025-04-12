@@ -50,6 +50,8 @@ body {
 .profile p {
     font-size: 14px;
     color: hsl(0, 0%, 70%);
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .sosmed {
