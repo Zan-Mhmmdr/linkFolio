@@ -1,3 +1,7 @@
+:root {
+    --bg-color:hsl(0, 0%, 70%)
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -55,8 +59,7 @@ body {
 }
 
 .sosmed {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .sosmed ul {
@@ -86,9 +89,9 @@ body {
 }
 
 .sosmed ul li a:hover {
-    background-color: hsl(0, 0%, 70%);
+    background-color: var(--bg-color);
     color: hsl(0, 0%, 12%);
-    box-shadow: 0 0 10px hsl(0, 0%, 70%);
+    box-shadow: 0 0 10px var(--bg-color);
 }
 
 /* .attribution {
