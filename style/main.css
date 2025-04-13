@@ -1,5 +1,5 @@
 :root {
-    --bg-color:hsl(0, 0%, 70%)
+    --bg-color: hsl(0, 0%, 70%)
 }
 
 body {
@@ -103,6 +103,41 @@ body {
     color: hsl(228, 45%, 44%);
   } */
 
-@media (min-width:375px) {}
+/* RESPONSIVE SECTION */
 
-@media (min-width: 1440px) {}
+/* Small screen (phones) */
+@media (max-width: 480px) {
+    .profile h1 {
+        font-size: 22px;
+    }
+
+    .profile h2 {
+        font-size: 16px;
+    }
+
+    .sosmed ul li a {
+        font-size: 13px;
+        padding: 10px 0;
+    }
+}
+
+/* Large screen (desktops) */
+@media (min-width: 1024px) {
+    .container {
+        height: 600px;
+        padding: 30px 0;
+    }
+
+    .profile h1 {
+        font-size: 32px;
+    }
+
+    .profile h2 {
+        font-size: 22px;
+    }
+
+    .sosmed ul li a {
+        font-size: 16px;
+        padding: 14px 0;
+    }
+}
